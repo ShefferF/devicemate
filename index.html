@@ -19,7 +19,7 @@
 <body>
 <main>
   <h1>DeviceMate Privacy Policy</h1>
-  <p class="muted">Effective date: 8 October 2026</p>
+  <p class="muted">Effective date: 31 October 2026</p>
 
   <p>DeviceMate ("the app") is developed by Sheffer Fernandes. It connects two of your own phones over Bluetooth: one phone with your SIM card (the "Caller Phone") and one mounted on your motorcycle's handlebar (the "Display Phone"). This policy explains what information the app uses, why, and what happens to it.</p>
 
@@ -29,27 +29,28 @@
   <div class="wrap">
   <table>
     <tr><th>Information</th><th>Why it is used</th></tr>
-    <tr><td>Incoming call details (caller's phone number and name), read from your phone's incoming-call notification through Notification access</td><td>To show who is calling on your Display Phone. The app only reads notifications marked by Android as incoming calls. Other notifications are ignored and never stored.</td></tr>
+    <tr><td>Call details (the phone number and name of the person calling you, or of the person you are calling), read from your phone's call notification through Notification access</td><td>To show who is calling, or who you are calling, on your Display Phone. The app only reads notifications marked by Android as incoming calls. Other notifications are ignored and never stored.</td></tr>
     <tr><td>Contacts <em>(optional)</em></td><td>To look up the caller's name from their number, on your phone, if the incoming-call notification doesn't already include it.</td></tr>
-    <tr><td>Phone state</td><td>To detect when your phone is ringing.</td></tr>
+    <tr><td>Phone state</td><td>To detect when your phone is ringing, and when a call is answered or ends.</td></tr>
     <tr><td>Answer phone calls</td><td>To answer the call when you tap Answer on your Display Phone.</td></tr>
     <tr><td>Call screening role <em>(optional)</em></td><td>To receive the caller's number and to reject the call when you tap Decline on your Display Phone.</td></tr>
     <tr><td>Bluetooth (nearby devices)</td><td>To list the phones already paired with yours and to connect to the one you choose.</td></tr>
     <tr><td>Battery level of the Caller Phone</td><td>To show your pocket phone's battery level and charging state on your Display Phone.</td></tr>
-    <tr><td>Display over other apps <em>(optional, Display Phone)</em></td><td>To show incoming calls full screen on top of other apps such as Maps, and a small battery indicator for your Caller Phone.</td></tr>
-    <tr><td>Notifications and full-screen alerts</td><td>To show incoming calls on your Display Phone, including over the lock screen, and to keep the Bluetooth connection running.</td></tr>
+    <tr><td>Display over other apps <em>(recommended, Display Phone)</em></td><td>To show the DeviceMate bar on top of other apps such as Maps: whether the phones are connected, your Caller Phone's battery, and incoming calls with Answer and Decline. It can also keep the screen on while the bar is showing, if you turn that on.</td></tr>
+    <tr><td>Notifications</td><td>To show incoming calls on your Display Phone if Display over other apps is not allowed, and to keep the Bluetooth connection running.</td></tr>
   </table>
   </div>
 
   <h2>How information is shared</h2>
-  <p>Caller details, your Caller Phone's battery level, and your Answer, Decline and Open Maps commands are sent only over a direct Bluetooth connection between your Caller Phone and the Display Phone you choose. They are not sent to the developer or to any third party, and they are not sold. The app has no internet access.</p>
+  <p>Caller details, whether a call was answered or ended, your Caller Phone's battery level, and your Answer, Decline and Open Maps commands are sent only over a direct Bluetooth connection between your Caller Phone and the Display Phone you choose. They are not sent to the developer or to any third party, and they are not sold. The app has no internet access.</p>
 
   <h2>What is stored, and for how long</h2>
   <p>The app saves only these settings on your phone:</p>
   <ul>
     <li>which role the phone plays (Caller or Display),</li>
     <li>the Bluetooth address of the Display Phone you selected,</li>
-    <li>whether the link is switched on, and</li>
+    <li>whether the link is switched on,</li>
+    <li>your DeviceMate bar preferences (where it is docked, whether it is always shown, and whether it keeps the screen on), and</li>
     <li>whether you have seen the tutorial.</li>
   </ul>
   <p>Caller details and battery levels are not saved. They are kept in memory only while they are being shown. The app's debug log is also kept in memory only, and is cleared when you stop the link or the app is closed. App data is excluded from Android's cloud backup. Uninstalling the app deletes everything it stored.</p>
